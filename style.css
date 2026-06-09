@@ -486,6 +486,7 @@ footer{
     margin-bottom:32px;
     display:flex;
     justify-content: space-between;
+    border-bottom: 1px solid oklch(0.552 0.016 285.938/0.2);
 }
 
 .footer_logos{
@@ -515,4 +516,19 @@ footer nav ul li a{
 
 .copyright{
     text-align:center;
+}
+
+.sns{
+    display:flex;
+    gap:20px;
+}
+
+.sns svg{
+    width:30px;
+    height:30px;
+}
+
+.copyright{
+    font-size:12px;
+    color: oklch(0.442 0.017 285.786);
 }
