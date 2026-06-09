@@ -387,6 +387,10 @@ header nav ul li a{
     margin-bottom:32px;
 }
 
+.lastaccessitem{
+    margin-bottom: 0;
+}
+
 
 .accessitem{
     display:flex;
@@ -432,6 +436,10 @@ header nav ul li a{
     text-align: center;
 }
 
+.reserve_buttons{
+        margin: 0 auto;
+}
+
 .reserveitem a{
     display: inline-block;
     text-align: center;
@@ -460,15 +468,51 @@ header nav ul li a{
     align-items: center;
 }
 
-
-.osusume{
-    margin-top: 4px;
-    font-size: 14px;
-    color: #fff;
-}
-
 .reserveitem svg{
     margin-bottom: 16px;
     height: 32px;
     width: 32px;
+}
+
+footer{
+    padding:80px 0 40px;
+    background-color: oklch(0.21 0.006 285.885);
+}
+
+.footer_container{
+    margin: 0 auto;
+    max-width:1280px;
+    padding:0 24px 48px;
+    margin-bottom:32px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer_logos{
+    display:flex;
+    flex-direction: column;
+}
+
+.footer_logos a{
+    color:#fff;
+    font-size:36px;
+    margin-bottom:16px;
+}
+
+.footer_logos p{
+    color:oklch(0.552 0.016 285.938);
+    font-size:14px;
+}
+
+footer nav ul{
+    gap:32px;
+}
+
+footer nav ul li a{
+    color:oklch(0.705 0.015 285.067);
+    font-size:14px;
+}
+
+.copyright{
+    text-align:center;
 }
