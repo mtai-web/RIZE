@@ -53,10 +53,16 @@ header {
     color: #332e2c;
 }
 
+.hamburger{
+    display:none;
+}
+
 .header_logo a{
-    font-family: "Noto Serif JP", ui-serif, Georgia, serif;
+    font-family: "Oswald", "Inter", ui-sans-serif, system-ui, sans-serif;
+    font-weight:600;
     font-size: 24px;
     color: #fff;
+    letter-spacing: 2px;
 }
 
 
@@ -132,6 +138,9 @@ header nav ul li a{
     font-size:16px;
     color:#64748b;
     margin-bottom: 16px;
+    font-family: "Oswald", "Inter", ui-sans-serif, system-ui, sans-serif;
+    font-weight:500;
+    letter-spacing:3px;
 }
 
 .heading h3{
@@ -420,10 +429,15 @@ header nav ul li a{
     margin-bottom: 0;
 }
 
+.reserve{
+    background-color:oklch(0.967 0.001 286.375);
+}
+
 .reserve_container{
     max-width: 896px;
     padding: 96px 0;
     margin: 0 auto;
+
 }
 
 .reserve_heading{
@@ -440,15 +454,24 @@ header nav ul li a{
         margin: 0 auto;
 }
 
+
+
 .reserveitem a{
     display: inline-block;
     text-align: center;
     padding: 40px 24px;
-    color: #fff;
-    background-color: oklch(0.21 0.006 285.885);
+    color:oklch(0.21 0.006 285.885);
+    background-color: #fff;
     font-size:16px;
     height: 100%;
     width: 100%;
+    font-family:"Noto Sans JP", ui-sans-serif, system-ui, sans-serif;
+    font-weight:500;
+}
+
+.reserve_buttons :nth-child(2) a{
+    background-color:#06C755;
+    color: #fff;
 }
 
 .reserve_buttons{
@@ -498,11 +521,15 @@ footer{
     color:#fff;
     font-size:36px;
     margin-bottom:16px;
+    font-family: "Oswald", "Inter", ui-sans-serif, system-ui, sans-serif;
+    font-weight:600;
+    letter-spacing:3px;
 }
 
 .footer_logos p{
     color:oklch(0.552 0.016 285.938);
     font-size:14px;
+    letter-spacing: 2px;
 }
 
 footer nav ul{
@@ -531,4 +558,16 @@ footer nav ul li a{
 .copyright{
     font-size:12px;
     color: oklch(0.442 0.017 285.786);
+}
+
+@media (max-width: 450px) {
+
+    header nav ul{
+        display:none;
+    }
+
+    .hamburger svg{
+        display:block;
+        color:#332e2c;
+    }
 }
