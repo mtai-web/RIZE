@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RIZE-Men's hair salon</title>
-<link rel="stylesheet" href="style_fixed_complete.css">
+<link rel="stylesheet" href="style.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,16 +23,17 @@
             </div>
             <nav class="header_nav">
                 <ul>
-                    <li><a href="#">CONCEPT</a></li>
-                    <li><a href="#">STYLE</a></li>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">STAFF</a></li>
-                    <li><a href="#">ACCESS</a></li>
-                    <li><a href="#">RESERVE</a></li>
+                    <li><a href="#concept">CONCEPT</a></li>
+                    <li><a href="#style">STYLE</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#staff">STAFF</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+                    <li><a href="#reserve">RESERVE</a></li>
                 </ul>
             </nav>
             <div class="hamburger">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+                <svg class="hamburger_menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+                <svg class="hamburger_close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
             </div>
         </div>
     </header>
@@ -44,15 +45,15 @@
                 <p class="hero_description">トレンドも、自分らしさも。<br class="sp_br">10代・20代のためのメンズサロン</p>
                 <nav class="hero_nav">
                     <ul>
-                        <li><a href="#">RESERVE</a></li>
-                        <li><a href="#">STYLE</a></li>
-                        <li><a href="#">MENU</a></li>
+                        <li><a href="#reserve">RESERVE</a></li>
+                        <li><a href="#style">STYLE</a></li>
+                        <li><a href="#menu">MENU</a></li>
                     </ul>
                 </nav>
             </div>
         </section>
 
-        <section class="concept">
+        <section class="concept" id="concept">
             <div class="concept_container">
                 <div class="heading concept_heading">
                     <h2 class="concept_title">CONCEPT</h2>
@@ -66,7 +67,7 @@
             </div>
         </section>
 
-        <section class="style">
+        <section class="style" id="style">
             <div class="heading style_heading">
                 <h2 class="style_title">STYLE</h2>
                 <h3 class="style_subtitle">最新メンズスタイル</h3>
@@ -102,7 +103,7 @@
             </div>
         </section>
 
-        <section class="menu">
+        <section class="menu" id="menu">
             <div class="menu_container">
                 <div class="heading menu_heading">
                     <h2 class="menu_title">MENU/PRICE</h2>
@@ -137,7 +138,7 @@
                 </div>
             </div>
         </section>
-        <section class="staff">
+        <section class="staff" id ="staff">
             <div class="heading staff_heading">
                 <h2 class="staff_title">STAFF</h2>
                 <h3 class="staff_subtitle">スタイリスト</h3>
@@ -163,7 +164,7 @@
                 </div>
             </div>
         </section>
-        <section class="feature">
+        <section class="feature" id="feature">
             <div class="heading feature_heading">
                 <h2 class="feature_title">FEATURE</h2>
                 <h3 class="feature_subtitle">当サロンのこだわり</h3>
@@ -192,7 +193,7 @@
                 </div>
             </div>
         </section>
-        <section class="access">
+        <section class="access" id="access">
             <div class="heading access_heading">
                 <h2 class="access_title">ACCESS</h2>
                 <h3 class="access_subtitle">店舗情報</h3>
@@ -228,20 +229,20 @@
                 </div>
             </div>
         </section>
-        <section class="reserve">
+        <section class="reserve" id="reserve">
             <div class="reserve_container">
                 <div class="reserve_heading">
                     <h3 class="reserve_subtitle">ご予約はこちら</h3>
                 </div>
                 <div class="reserve_buttons">
                     <div class="reserveitem">
-                        <a href="#" class="reserve_button"><div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><br>Web予約</div></a>
+                        <a href="tel:0123456789" class="reserve_button"><div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><br>Web予約</div></a>
                     </div>
                     <div class="reserveitem">
-                        <a href="#" class="reserve_button"><div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone-icon lucide-smartphone"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg><br>LINE予約<br><p class="osusume">おすすめ！</p></div></a>
+                        <a href="https://line.me/R/ti/p/@yourid" class="reserve_button"><div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone-icon lucide-smartphone"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg><br>LINE予約<br><p class="osusume">おすすめ！</p></div></a>
                     </div>
                     <div class="reserveitem">
-                        <a href="#" class="reserve_button"><div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg><br>電話予約</div></a>
+                        <a href="tel:0123456789" class="reserve_button"><div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg><br>電話予約</div></a>
                     </div>
                 </div>
             </div>
@@ -258,11 +259,11 @@
             </div>
             <nav class="footer_nav">
                 <ul>
-                    <li><a href="#">CONCEPT</a></li>
-                    <li><a href="#">STYLE</a></li>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">STAFF</a></li>
-                    <li><a href="#">ACCESS</a></li>
+                    <li><a href="#concept">CONCEPT</a></li>
+                    <li><a href="#style">STYLE</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#staff">STAFF</a></li>
+                    <li><a href="#access">ACCESS</a></li>
                 </ul>
             </nav>
             <div class="sns">
